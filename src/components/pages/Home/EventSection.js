@@ -4,7 +4,7 @@ const EventSection = () => {
   return (
     <div>
       <div
-        className="px-5 sm:px-10 md:px-20 lg:px-10 xl:px-20 py-8 bg-indigo-100 text-black"
+        className="px-5 sm:px-10 md:px-20 lg:px-10 xl:px-20 py-8 "
         id="blog-posts"
       >
         <div className="max-w-screen-xl mx-auto">
@@ -17,7 +17,7 @@ const EventSection = () => {
                 <a
                   href="https://owaiskhan.me"
                   className="flex w-full max-w-sm mt-6 lg:mt-8 xl:mr-8">
-                  <div className="transition-all duration-300 cursor-pointer w-full shadow-lg hover:shadow-xl rounded-lg bg-gray-100 relative">
+                  <div className="transition-all duration-300 cursor-pointer w-full text-black  shadow-lg hover:shadow-xl rounded-lg bg-gray-100 relative">
                     <img
                       src="https://images.unsplash.com/photo-1581287053822-fd7bf4f4bfec?ixlib=rb-1.2.1&auto=format&fit=crop&w=512&q=80"
                       alt=""
@@ -39,7 +39,7 @@ const EventSection = () => {
                 <a
                   href="https://timerse.com"
                   className="flex w-full max-w-sm mt-6 lg:mt-8 xl:mr-8">
-                  <div className="transition-all duration-300 cursor-pointer w-full shadow-lg hover:shadow-xl rounded-lg bg-gray-100 relative">
+                  <div className="transition-all duration-300 cursor-pointer text-black  w-full shadow-lg hover:shadow-xl rounded-lg bg-gray-100 relative">
                     <img
                       src="https://images.unsplash.com/photo-1581287053822-fd7bf4f4bfec?ixlib=rb-1.2.1&auto=format&fit=crop&w=512&q=80"
                       alt=""
@@ -64,14 +64,13 @@ const EventSection = () => {
 
             <div className="mt-12 xl:mt-0 xl:ml-8">
               <h3 className="leading-none font-black text-3xl">Recent Posts</h3>
-              <div className="flex flex-col items-center lg:flex-row lg:items-stretch lg:justify-around xl:flex-col">
+              <div className="flex flex-col items-center lg:flex-row lg:items-stretch lg:justify-around xl:flex-col text-black ">
                 <a
                   href="https://owaiskhan.me"
-                  className="flex w-full max-w-sm mt-6 lg:mt-8"
-                >
+                  className="flex w-full max-w-sm mt-6 lg:mt-8">
                   <div
                     className="transition-all duration-300 cursor-pointer w-full shadow-lg hover:shadow-xl rounded-lg
-              bg-gray-100 relative xl:flex xl:flex-row-reverse xl:items-center xl:px-6 xl:py-8"
+                          bg-gray-100 relative xl:flex xl:flex-row-reverse xl:items-center xl:px-6 xl:py-8"
                   >
                     <img
                       src="https://images.unsplash.com/photo-1581287053822-fd7bf4f4bfec?ixlib=rb-1.2.1&auto=format&fit=crop&w=512&q=80"
@@ -99,7 +98,7 @@ const EventSection = () => {
                 >
                   <div
                     className="transition-all duration-300 cursor-pointer w-full shadow-lg hover:shadow-xl rounded-lg
-              bg-gray-100 relative xl:flex xl:flex-row-reverse xl:items-center xl:px-6 xl:py-8"
+              bg-gray-100 relative xl:flex xl:flex-row-reverse xl:items-center xl:px-6 xl:py-8 text-black"
                   >
                     <img
                       src="https://images.unsplash.com/photo-1581287053822-fd7bf4f4bfec?ixlib=rb-1.2.1&auto=format&fit=crop&w=512&q=80"
