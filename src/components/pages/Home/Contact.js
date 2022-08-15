@@ -25,7 +25,8 @@ const Contact = () => {
   };
 
   return (
-    <div className={`max-w-screen-md mx-auto p-5 mt-5 pt-6   `}>
+    <div className={`max-w-screen-md mx-auto p-5 mt-6 pt-6   `}>
+      <div class="divider text-black"></div>
       <div className="text-center mb-16">
         {/* <p className="mt-4 text-3xl md:text-5xl lg:text-7xl text-center leading-7 text-indigo-500 font-regular ">
           Contact
@@ -51,7 +52,7 @@ const Contact = () => {
               className="appearance-none block w-full bg-gray-200  border border-red-500 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
               id="grid-first-name"
               type="text"
-              placeholder="Rafath"
+              placeholder="First Name"
             />
             <p className="text-red-500 text-xs italic">
               Please fill out this field.
@@ -68,7 +69,7 @@ const Contact = () => {
               className="appearance-none block w-full bg-gray-200  border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
               id="grid-last-name"
               type="text"
-              placeholder="Auvee"
+              placeholder="Last Name"
             />
           </div>
         </div>
@@ -84,7 +85,7 @@ const Contact = () => {
               className="appearance-none block w-full bg-gray-200  border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
               id="grid-email"
               type="email"
-              placeholder="rafath.auvee@gmail.com"
+              placeholder="something@gmail.com"
             />
           </div>
         </div>
@@ -100,7 +101,7 @@ const Contact = () => {
             <textarea
               rows="10"
               className="appearance-none block w-full bg-gray-200  border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
-              placeholder="You are hired!"
+              placeholder="Your Message"
             ></textarea>
           </div>
           <div className="flex justify-between w-full px-3">
